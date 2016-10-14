@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="be.bastelstu.promiseWrap" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Promise Wrap</packagename>
+		<isapplication>0</isapplication>
+		<version>1.0.0 Alpha 1</version>
+		<date>2016-10-14</date>
+		<license><![CDATA[MIT License <https://opensource.org/licenses/MIT>]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Tim Düsterhus</author>
+		<authorurl>http://tims.bastelstu.be</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.4.1">be.bastelstu.core-js</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<instruction type="file" application="wcf">files_wcf.tar</instruction>
+	</instructions>
+</package>
