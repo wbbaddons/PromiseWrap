@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>Promise Wrap</packagename>
 		<isapplication>0</isapplication>
-		<version>1.0.0 Alpha 1</version>
-		<date>2016-10-14</date>
+		<version>1.0.0 RC 1</version>
+		<date>2016-12-18</date>
 		<license><![CDATA[MIT License <https://opensource.org/licenses/MIT>]]></license>
 	</packageinformation>
 	
@@ -14,7 +14,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.0.0 RC 1">com.woltlab.wcf</requiredpackage>
 		<requiredpackage minversion="2.4.1">be.bastelstu.core-js</requiredpackage>
 	</requiredpackages>
 	
