@@ -20,20 +20,18 @@
  * SOFTWARE.
  */
 
-define([ 'Bastelstu.be/core'
-       , 'WoltLabSuite/Core/Ajax'
-       ], function (core, _Ajax) {
+define([ 'WoltLabSuite/Core/Ajax' ], function (_Ajax) {
 	"use strict";
 
 	class Ajax {
 		static api(callbackObject, data) {
-			return new core.Promise(function (resolve, reject) {
+			return new Promise(function (resolve, reject) {
 				_Ajax.api(callbackObject, data, resolve, reject)
 			})
 		}
 
 		static apiOnce(options) {
-			return new core.Promise(function (resolve, reject) {
+			return new Promise(function (resolve, reject) {
 				options.success = resolve
 				options.failure = reject
 

@@ -20,14 +20,12 @@
  * SOFTWARE.
  */
 
-define([ 'Bastelstu.be/core'
-       , 'WoltLabSuite/Core/Ui/Confirmation'
-       ], function (core, _Confirmation) {
+define([ 'WoltLabSuite/Core/Ui/Confirmation' ], function (_Confirmation) {
 	"use strict";
 
 	class Confirmation {
 		static show(options) {
-			return new core.Promise(function (resolve, reject) {
+			return new Promise(function (resolve, reject) {
 				options.confirm = resolve
 				options.cancel = reject
 
