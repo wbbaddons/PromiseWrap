@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>Promise Wrap</packagename>
 		<isapplication>0</isapplication>
-		<version>1.1.1</version>
-		<date>2020-10-20</date>
+		<version>1.2.0</version>
+		<date>2021-04-17</date>
 		<license><![CDATA[MIT License <https://opensource.org/licenses/MIT>]]></license>
 	</packageinformation>
 	
@@ -14,7 +14,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.10">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.2.13">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
@@ -22,6 +22,10 @@
 	</excludedpackages>
 	
 	<instructions type="install">
+		<instruction type="file" application="wcf">files_wcf.tar</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.1.1">
 		<instruction type="file" application="wcf">files_wcf.tar</instruction>
 	</instructions>
 
