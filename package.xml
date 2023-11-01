@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename>Promise Wrap</packagename>
 		<isapplication>0</isapplication>
-		<version>1.4.0</version>
+		<version>1.4.1</version>
 		<date>2023-11-01</date>
 		<license><![CDATA[MIT License <https://opensource.org/licenses/MIT>]]></license>
 	</packageinformation>
@@ -22,6 +22,10 @@
 	</excludedpackages>
 	
 	<instructions type="install">
+		<instruction type="file" application="wcf">files_wcf.tar</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.4.0">
 		<instruction type="file" application="wcf">files_wcf.tar</instruction>
 	</instructions>
 
